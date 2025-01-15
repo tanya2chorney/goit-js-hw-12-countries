@@ -5,15 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "src/*.html"
+    "start": "parcel src/*.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.83.1"
   },
   "dependencies": {
-    "handlebars": "^4.7.8"
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/desktop": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
+    "handlebars": "^4.7.8",
+    "lodash": "^4.17.21"
   }
 }
